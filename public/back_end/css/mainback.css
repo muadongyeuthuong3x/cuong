@@ -1,0 +1,66 @@
+.dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+}
+.di_chuyen {
+
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.suasanpham
+{
+   display: block;
+    visibility: hidden;
+    opacity: 0;
+}
+a.co.llapse-item {
+
+    padding: 23px;
+}
+.hiensua {
+    z-index: 10;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    animation: chuyendong 0.4s ease-in-out;
+    background: wheat;
+    width: 80%;
+}
+.xoasua{
+   content: "x";
+   position: absolute;
+   top:1%;
+   background: #a38989;
+   font-size: 20px;
+   width: 20px;
+   text-align: center;
+   left: 97%;
+ cursor: pointer;
+}
+
+
+.xoasua:hover{
+    background: red;
+    color: gray;
+}
+
+
+@keyframes chuyendong{
+    from{
+     top: 0%;
+    }
+    to{
+     top: 2%;
+    }
+}
+.benphai{
+    margin-left: 66%;
+}
+
+span.select2-selection.select2-selection--multiple {
+    width: 300px;
+}
